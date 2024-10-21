@@ -10,26 +10,7 @@ class Persona {
         console.log(`Hola, mi nombre es ${this.nombre} y soy del país ${this.paisNacimiento}.`);
     }
 
-}
-
-let objPersona = new Persona("Pablo","Ecuador");
-objPersona.saludar();
-
-objPersona = new Persona("Leonel","Argentina");
-objPersona.saludar();
-
-
-
-
-
-
-
-
-/*
-
-
-
-    
+}   
 
 class Empleado extends Persona {
     constructor(nombre,paisNacimiento,empresa,profesion,aniosTrabajo)
@@ -76,4 +57,3 @@ let objEstudiante = new Estudiante("Juan","Brazil","ABCD","Quinto");
 objEstudiante.saludar();
 objEstudiante.mostrarEstudiante();
 
-*/
